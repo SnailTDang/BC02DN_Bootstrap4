@@ -1,0 +1,23 @@
+@media screen and (max-width: 991px) {
+  .main-top-header {
+    display: none;
+  }
+
+  .cont-ser-position {
+    position: absolute;
+    right: 80px;
+    top: 25px;
+  }
+
+  .navbar {
+    padding: 0.5rem 0rem;
+  }
+
+  .navbar-toggler span {
+    line-height: 42px;
+    font-size: 28px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 8px;
+  }
+}
