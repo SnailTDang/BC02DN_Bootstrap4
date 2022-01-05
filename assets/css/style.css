@@ -64,6 +64,7 @@ header {
   border-radius: 30px;
   border: 2px solid #eee;
   outline: none;
+  line-height: 22px;
 }
 
 .search-btn {
@@ -353,4 +354,40 @@ header {
   padding: 0;
   background: #0000;
   font-size: 14px;
+}
+
+.services-ab {
+  background: url(https://demo.w3layouts.com/demos_new/template_demo/13-03-2021/studious-liberty-demo_Free/425342591/web/assets/images/bg3.jpg)
+    no-repeat bottom;
+  background-size: cover;
+}
+
+.homeblock1 .feature-gd {
+  background: var(--bg-color);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.homeblock1 .fea-gd-vv h5 {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--heading-color);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.homeblock1 .icon i {
+  background: var(--primary-color);
+  color: var(--primary-color);
+  font-size: 28px;
+  background: #0d369f17;
+  width: 65px;
+  height: 66px;
+  line-height: 65px;
+  border-radius: 50%;
+  text-align: center;
 }
