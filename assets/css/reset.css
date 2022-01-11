@@ -53,6 +53,11 @@
    * Remove the margin in all browsers.
    */
 
+html {
+  visibility: inherit;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -465,4 +470,8 @@ a:hover {
 
 .container {
   max-width: 1200px;
+}
+
+.d-grid {
+  display: grid;
 }
